@@ -1,0 +1,1 @@
+jQuery(function(c){var d=c("#categoryInfo #infoLong");if(d.length==0){return}function a(){d.slideDown(500,"easeOutExpo");return false}function b(){d.slideUp(500,"easeOutExpo")}c("#categoryInfo .readMore a").click(a);d.bind("mouseleave",b)});

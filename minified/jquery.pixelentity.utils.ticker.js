@@ -1,0 +1,1 @@
+(function(f){f.pixelentity=f.pixelentity||{version:"1.0.0"};var g=f.pixelentity.ticker=f("<div>");function a(){return(new Date).getTime()}var e=a();var d,c;function b(){var h=a();if(h-e>=30){g.triggerHandler("tick");e=h}}setInterval(b,16);setInterval(b,30)})(jQuery);

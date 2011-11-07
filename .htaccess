@@ -1,0 +1,6 @@
+# if you have mod rewrite installed in your hosting space, you can enable pretty url for
+# compressed css/js by uncommenting following lines
+
+#RewriteEngine On
+#Options FollowSymLinks
+#RewriteRule   ^packs/(\w+)\.(css|js)	packs/jscsscomp.php?q=$1.$2				[L,NC]

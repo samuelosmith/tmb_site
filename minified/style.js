@@ -1,0 +1,1 @@
+jQuery(function(a){a("#header a[href='#']").removeAttr("href").addClass("noLink");a("#stats li a[href='#']").removeAttr("href")});

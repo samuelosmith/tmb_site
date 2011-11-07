@@ -1,0 +1,1 @@
+jQuery(function(c){var a=c("#twitter");if(a.length==0){return}var e=c("#twitter").attr("data-username");if(e){var b=c("<div></div>");function d(){if(b.find(".tweet-text").length==0){return}a.find("p").html(b.find(".tweet-text")[0]).end().find("span").html(b.find(".tweet-created_at")[0]).end()}b.fetchTweets({username:e,count:1,callback:d,showUserInfo:false})}});
